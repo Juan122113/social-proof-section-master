@@ -1,3 +1,21 @@
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+}
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+}
+
+main{
+    padding: 5vh 5vw;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
