@@ -16,14 +16,14 @@ body{
 }
 
 main{
-    padding: 5vh 5vw 5vh 5vw;
+    padding: 4.7vh 5vw 5vh 5vw;
 }
 
 h1{
     padding: 0 10vw;
-    font-size: 11vw;
+    font-size: 10.3vw;
     color: var(--Very-Dark-Magenta);
-    font-weight: 700;
+    font-weight: 725;
     letter-spacing: -0.5vw;
     line-height: 8.5vw;
     text-align: center;
@@ -35,6 +35,20 @@ section p{
     font-size: 5vw;
     font-weight: 500;
     color: hsl(303, 10%, 53%);
+}
+
+.Rated{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.box{
+    height: 7vh;
+    width: 100%;
+    background-color: hsl(300, 24%, 96%);
 }
 
 .attribution {
