@@ -63,6 +63,12 @@ section p{
     font-weight: 725;
 }
 
+.container{
+    height: 15vh;
+    padding: 3vh 0;
+    background-color: var(--Very-Dark-Magenta);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
