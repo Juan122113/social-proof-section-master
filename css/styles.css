@@ -1,5 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap'); */
 
+/* Perfect Pixel: x: 737 y: 94 0.4 */
+
 :root{
     --Very-Dark-Magenta: hsl(300, 43%, 22%);
     --Soft-Pink: hsl(333, 80%, 67%);
@@ -16,15 +18,15 @@ body{
 }
 
 main{
-    padding: 4.7vh 5vw 5vh 5vw;
+    padding: 5.5vh 5vw 5vh 5vw;
 }
 
 h1{
     padding: 0 10vw;
-    font-size: 10.3vw;
+    font-size: 11vw;
     color: var(--Very-Dark-Magenta);
     font-weight: 725;
-    letter-spacing: -0.5vw;
+    letter-spacing: -0.35vw;
     line-height: 8.5vw;
     text-align: center;
 }
@@ -34,11 +36,13 @@ section p{
     text-align: center;
     font-size: 5vw;
     font-weight: 500;
+    letter-spacing: 0.3vw;
     color: hsl(303, 10%, 53%);
 }
 
 .Rated{
-    height: 25vh;
+    height: 20vh;
+    padding: 1vh 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,9 +50,17 @@ section p{
 }
 
 .box{
-    height: 7vh;
+    height: 5vh;
     width: 100%;
     background-color: hsl(300, 24%, 96%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box_text{
+    color: var(--Very-Dark-Magenta);
+    font-weight: 725;
 }
 
 .attribution {
