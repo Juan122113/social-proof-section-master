@@ -34,10 +34,10 @@ h1{
 section p{
     padding: 1.6vh 0;
     text-align: center;
-    font-size: 4.8vw;
+    font-size: 4.5vw;
     font-weight: 500;
     /* letter-spacing: 0.1vw; */
-    line-height: 1.65vh;
+    line-height: 7vw;
     color: hsl(303, 10%, 53%);
 }
 
@@ -55,6 +55,7 @@ section p{
     height: 5.4vh;
     width: 100%;
     background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -73,9 +74,9 @@ section p{
 }
 
 .container{
-    height: 16vh;
+    height: 66vw;
     margin: 1vh 0;
-    padding: 8vw;
+    padding: 9.5vw;
     background-color: var(--Very-Dark-Magenta);
     border-radius: 10px;
     /* display: flex; */
@@ -113,9 +114,11 @@ section p{
 }
 
 .container_text {
-    padding: 2vh 0 0 0;
+    padding: 1vh 0 0 0;
     color: white;
     text-align: left;
+    font-size: 4.3vw;
+    line-height: 6vw;
 }
 
 .attribution {
