@@ -84,11 +84,11 @@ section p{
     /* justify-content: center; */
 }
 
-.container_header{
+.container_header {
     display: flex;
 }
 
-.container_header img{
+.container_header img {
     max-width: 100%;
     height: 2.5vh;
     margin: 0 7vw 0 0;
@@ -102,12 +102,12 @@ section p{
     justify-content: center;
 }
 
-.container_title h4{
+.container_title h4 {
     margin: 0 0;
     color: white;
 }
 
-.container_title p{
+.container_title p {
     padding: 0;
     color: hsl(333, 80%, 67%);
     font-size: 4.5vw;
