@@ -78,7 +78,7 @@ section p{
 .container{
     height: 63vw;
     margin: 1.3vh 0;
-    padding: 9.5vw;
+    padding: 9vw;
     background-color: var(--Very-Dark-Magenta);
     border-radius: 10px;
     /* display: flex; */
@@ -123,7 +123,7 @@ section p{
     color: white;
     text-align: left;
     font-size: 4.3vw;
-    line-height: 6vw;
+    line-height: 5.75vw;
 }
 
 .attribution {
@@ -133,4 +133,16 @@ section p{
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 1440px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60% 40%;
+        grid-template-areas:
+        "main"
+        "reviews"
+    }
 }
