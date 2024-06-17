@@ -138,12 +138,34 @@ section p{
 
 @media (min-width: 1440px) {
     main {
+        padding: 13vh 21vh;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 60% 40%;
         grid-template-areas:
-        "main"
-        "reviews"
+        "main stars"
+        "reviews reviews"
+    }
+
+    h1{
+        padding: 0 20vh 0 0;
+        font-size: 7vh;
+        /* color: var(--Very-Dark-Magenta); */
+        font-weight: 725;
+        /* letter-spacing: -0.35vw; */
+        /* word-spacing: 1vw; */
+        line-height: 8.5vh;
+        text-align: left;
+    }
+
+    section p{
+        padding: 2vh 20vh 0 0;
+        text-align: left;
+        font-size: 1.9vh;
+        font-weight: 500;
+        /* letter-spacing: 0.1vw; */
+        line-height: 3vh;
+        color: hsl(303, 10%, 53%);
     }
 
     .reviews{
