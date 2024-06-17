@@ -139,10 +139,14 @@ section p{
 @media (min-width: 1440px) {
     main {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 60% 40%;
         grid-template-areas:
         "main"
         "reviews"
+    }
+
+    .reviews{
+        display: flex;
     }
 }
