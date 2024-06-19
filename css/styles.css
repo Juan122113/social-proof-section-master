@@ -169,19 +169,20 @@ section p{
     }
 
     .Rated{
-        height: 30vh;
-        padding: 1.8vh 0 1vh 0;
-        margin-bottom: 2vh;
+        height: auto;
+        /* padding: 1.8vh 0 1vh 0; */
+        margin-bottom: 10vh;
         /* display: flex; */
         /* flex-direction: column; */
-        /* justify-content: space-between; */
+        justify-content: center;
     }
 
     .box{
-        height: 15vh;
+        height: 7vh;
+        width: 31vw;
         /* width: 100%; */
-        margin: 1vh;
-        padding: 0 0 0 3vw;
+        margin-bottom: 1.7vh;
+        /* padding: 0 0 0 3vw; */
         /* background-color: hsl(300, 24%, 96%); */
         /* border-radius: 8px; */
         /* display: flex; */
@@ -195,31 +196,52 @@ section p{
         /* padding-right: 15vw; */
         /* gap: 5vh; */
         position: relative;
-        right: 4.5vw;
+        right: 3vw;
+    }
+
+    .Report {
+        position: relative;
+        left: 0.7vw;
+    }
+
+    .Report p {
+        /* padding-left: 4vw; */
+        position: relative;
+        left: -2.2vw;
+    }
+
+    .BestTech {
+        position: relative;
+        left: 3.9vw;
     }
 
     .star {
-        padding: 0 0.5vh;
-        height: 2vh;
+        padding: 0 0.2vw;
+        height: 1.9vh;
     }
 
     .box_text{
         padding-left: 0;
         /* color: var(--Very-Dark-Magenta); */
-        font-weight: 725;
-        font-size: 2.5vh;
+        /* font-weight: 725; */
+        font-size: 2vh;
         letter-spacing: -0.01vw;
+        position: relative;
+        right: 3.3vw;
     }
 
     .reviews{
         display: flex;
+        /* margin-bottom: 0vh; */
+        position: relative;
+        top: -4.3vh;
     }
 
     .container{
         height: 28.5vh;
         width: 24.4vw;
         margin: 1.5vh 2vw 0 0;
-        padding: 4.7vh 2vw;
+        padding: 4.7vh 2.26vw;
         /* background-color: var(--Very-Dark-Magenta); */
         /* border-radius: 10px; */
         /* display: flex; */
@@ -227,6 +249,20 @@ section p{
         /* justify-content: center; */
     }
 
+    .Colton {
+        position: relative;
+        top: -0.2vh;
+    }
+
+    .Irene {
+        position: relative;
+        top: 1.8vh;
+    }
+
+    .Anne {
+        position: relative;
+        top: 3.7vh;
+    }
     .container_header img {
         max-width: 100%;
         height: 5vh;
@@ -260,7 +296,8 @@ section p{
         /* color: white; */
         /* text-align: left; */
         font-size: 2vh;
-        line-height: 3vh;
+        line-height: 2.7vh;
+        word-spacing: 0.0vw;
     }
     
     .attribution {
